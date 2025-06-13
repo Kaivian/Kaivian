@@ -42,4 +42,4 @@ jobs:
           base: ""
           config_timezone: Asia/Ho_Chi_Minh
           plugin_calendar: yes
-          plugin_calendar_limit: 0
+          plugin_calendar_limit: 2
