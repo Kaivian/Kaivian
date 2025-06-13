@@ -3,10 +3,10 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"         # Tự động chạy mỗi ngày lúc 00:00 UTC
-  workflow_dispatch:            # Cho phép chạy thủ công
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
-    branches: [main, master]    # Chạy khi push vào main/master
+    branches: [main, master]
 
 jobs:
   github-metrics:
