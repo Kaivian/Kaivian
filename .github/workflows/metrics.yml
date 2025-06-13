@@ -31,7 +31,7 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_threshold: 2%
           plugin_calendar: yes
-          plugin_calendar_limit: 5
+          plugin_calendar_limit: 2
 
       - name: Full history calendar
         uses: lowlighter/metrics@latest
