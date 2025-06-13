@@ -1,4 +1,8 @@
-## Hi there 👋
+### Hi there 👋
+
+I'm an open source developer creating and contributing to many different projects, while trying to expand my knowledge involving Java based projects.
+
+[<img align="left" width="50%" alt="👀" src="github-metrics.svg">](#
 
 <!--
 **Kaivian/Kaivian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
