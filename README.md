@@ -9,3 +9,4 @@ I'm an open source developer creating and contributing to many different project
        alt="Kaivian's WakaTime Stats" 
        style="width: 52%; display: block; margin: 0 auto;">
 </a>
+[<img align="left" width="45%" alt="metrics" src="right-metrics.svg">](#)
