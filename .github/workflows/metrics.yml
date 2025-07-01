@@ -45,7 +45,7 @@ jobs:
           plugin_sponsors: yes
           plugin_sponsors_sections: goal, list, about
           plugin_sponsors_size: 24
-          plugin_sponsors_title: Kaivian sincerely appreciates your support — it truly means a lot!
+          plugin_sponsors_title: Kaivian sincerely appreciates your support!
       - uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
