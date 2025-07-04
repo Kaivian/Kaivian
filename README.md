@@ -9,5 +9,4 @@
 
 ### Hi there 👋
 
-
-I'm an open source developer creating and contributing to many different projects, while trying to expand my knowledge about Java based projects.
+I'm an open source developer creating and contributing to many different projects, while trying to expand my knowledge involving Java based projects.
