@@ -16,7 +16,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&layout=compact&show_icons=true&title_color=0366d6&icon_color=818990&bg_color=0d1117&hide_border=true&theme=dark
-          path: profile/waka.svg
+          path: waka.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Commit cards
