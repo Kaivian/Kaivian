@@ -1,8 +1,11 @@
 name: Update README Cards
 
 on:
+  push:
+    paths:
+      - ".github/workflows/update-readme.yml"
   schedule:
-    - cron: "0 3 * * *" # 10:00 AM VN
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
