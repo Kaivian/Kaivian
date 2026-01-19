@@ -16,46 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # ---------- GitHub Readme Stats ----------
-      - name: Prepare folders
-        run: mkdir -p profile
-
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: >
-            username=Kaivian&show_icons=true&title_color=0366d6&icon_color=818990&bg_color=0d1117&hide_border=true&rank_icon=percentile&hide=stars,commits,prs,issues,contribs&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=dark
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit stats card
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add profile/stats.svg
-          git commit -m "chore: update stats card" || exit 0
-          git push
-
-      # ---------- GitHub Readme Stats (Compact / waka) ----------
-      - name: Generate compact stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: >
-            username=Kaivian&layout=compact&show_icons=true&title_color=0366d6&icon_color=818990&bg_color=0d1117&hide_border=true&theme=dark
-          path: profile/waka.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # ---------- Commit stats cards ----------
-      - name: Commit stats cards
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add profile/stats.svg profile/waka.svg
-          git commit -m "chore: update README stats cards" || exit 0
-          git push
-
       # ---------- Lowlighter Metrics (Left) ----------
       - name: Generate main metrics
         uses: lowlighter/metrics@latest
