@@ -25,7 +25,7 @@ jobs:
         with:
           card: stats
           options: >
-            username=${{ github.repository_owner }}
+            username=Kaivian
             &show_icons=true
             &title_color=0366d6
             &icon_color=818990
