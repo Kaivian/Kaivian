@@ -16,7 +16,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&title_color=0366d6&icon_color=818990&bg_color=0d1117&hide_border=true&rank_icon=percentile&hide=stars,commits,prs,issues,contribs&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=dark#gh-dark-mode-only
-          path: profile/stats.svg
+          path: stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
       - name: Commit cards
