@@ -8,4 +8,4 @@
 [<img align="left" width="50%" alt="metrics" src="right-metrics.svg">](#)
 ### Hi there 👋
 
-I'm an open source developer creating and contributing to many different projects, while trying to expand my knowledge involving Java based projects.
+I’m an open-source developer contributing to various projects while expanding my knowledge in Java and modern web development.
