@@ -6,6 +6,6 @@
        style="width: 52%; display: block; margin: 0 auto;">
 </a>
 [<img align="left" width="50%" alt="metrics" src="right-metrics.svg">](#)
-### Hi there 👋
+### Hi there 👋 (New account)
 
 I’m an open-source developer contributing to various projects while expanding my knowledge in Java and modern web development.
