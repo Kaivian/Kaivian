@@ -66,7 +66,7 @@ jobs:
           config_timezone: Asia/Saigon
 
           plugin_people: yes
-          plugin_people_types: following
+          plugin_people_types: followers, following
           plugin_people_limit: 24
           plugin_people_size: 28
           plugin_people_identicons_hide: yes
